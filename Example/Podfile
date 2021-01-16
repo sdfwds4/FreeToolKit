@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FreeToolKit_Example' do
+  pod 'FreeToolKit', :path => '../'
+
+  target 'FreeToolKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FreeToolKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FreeToolKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FreeToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FreeToolKit: eeba75e2663ebbf6d355e3082eca4458b20b8106
+
+PODFILE CHECKSUM: 1143730b951b2710377051db82985afb88b24c0a
+
+COCOAPODS: 1.9.3
